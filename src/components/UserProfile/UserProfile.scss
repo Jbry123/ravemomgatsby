@@ -1,4 +1,4 @@
-.FriendBlock-Container {
+.UserProfile-Container {
   width: 400px;
   height: 500px;
   border-top: 5px solid #000100;
@@ -16,7 +16,7 @@
 }
 
 
-.Icon-wrapper {
+.UserIcon-wrapper {
   text-align: right;
   width: 120px;
   // padding-left: 10%;
@@ -31,9 +31,10 @@
  
 }
 
-h2 {
+.userh2 {
   font-size: 2px;
   width: 150px;
+  height: 100px;
   padding-top: 3%;
   padding-left: 5%;
 }
@@ -43,8 +44,9 @@ p {
   font-size: 70%;
 }
 
-h4 {  
+.Userh4 {  
   width: 150px;
+  height: 100px;
   font-size: 25px;
   padding-top: 3%;
   padding-left: 5%;
