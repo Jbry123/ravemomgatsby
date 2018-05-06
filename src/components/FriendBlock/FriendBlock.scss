@@ -1,9 +1,11 @@
-.FriendBlock-Container {
+div.FriendBlock-Container {
   width: 400px;
+  height: 80px;
   border-top: 5px solid #000100;
-  display: flex;
-  flex-flow: wrap
+  // display: flex;
+  // flex-flow: wrap;
 }
+
 .Profile-pic {
   margin-top: 1.2%;
   border-radius: 50%;
@@ -12,21 +14,13 @@
 
 }
 
-button {
-  position: relative;
-  width: 40px;
-  height: 30px;
-  margin-left: 15%;
-  padding-bottom: 20%;
-  padding-top: 10%;
-  text-align: center;
-}
 
-.Icon-wrapper {
-  width: 220px;
-  padding-left: 30%;
-  padding-top: 3%;
-  margin-left: 10%;
+div.Icon-wrapper {
+  height: 50px;
+  width: 180px;
+  // padding-left: 10%;
+  padding-top: 7.7%;
+  // margin-left: 10%;
 
 }
 
@@ -36,7 +30,9 @@ button {
  
 }
 
-h2 {
-  padding-top: 3%;
+h4 {  
+  width: 150px;
+  font-size: 17px;
+  padding-top: 7%;
   padding-left: 5%;
 }

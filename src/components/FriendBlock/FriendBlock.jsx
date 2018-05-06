@@ -3,24 +3,80 @@ import './FriendBlock.scss';
 
 class FriendBlock extends Component {
   render() {
-//     const friendNames = ['Ruby', 'Sally', 'Jenny', 'Bill', 'John', 'Liz', 'Milly'];
-//     let friendName = '';
-// let randomFriendName = () => {
-//   for(i=0; i < friendNames.length[i]; i++) {
-//     i += friendName;
-//   }
-// }
+    //     var Chance = require('chance');
+    const friendNames = ['Pikachu', 'Ekans', 'Polywhirl', 'Ashe', 'Brock', 'Liz', 'Lil'];
+    //     let friendName = '';
+    // function randomFriendName() {
+    //   for(let i=0; i < i + 1; i++) {
+    //     return
+    //   }
+    // }
     return (
-      <div className="FriendBlock-Container">
-      <img className="Profile-pic"src="https://i.imgur.com/yZdQCsr.png" height="40" width="40" />
+      <div>
+        <div className="FriendBlock-Container">
+          <img className="Profile-pic" src="https://i.imgur.com/yZdQCsr.png" height="40" width="40" />
 
-    <h2>Jon
-      </h2>
-      <div className="Icon-wrapper">
-        <img className="Icon-pic" src="http://www.clker.com/cliparts/H/i/N/V/m/o/plus-sign-hi.png" alt="" height="31" width="30"/>
-        <img className="Icon-pic" src="http://simpleicon.com/wp-content/uploads/bluetooth.png" alt="" height="32" width="35"/>
+          <h4>{friendNames[0]}
+                    </h4>
+          <div className="Icon-wrapper">
+            <img className="Icon-pic" src="http://www.clker.com/cliparts/H/i/N/V/m/o/plus-sign-hi.png" alt="" height="31" width="30" />
+            <img className="Icon-pic" src="http://simpleicon.com/wp-content/uploads/bluetooth.png" alt="" height="32" width="35" />
+          </div>
+        </div>
+        <div className="FriendBlock-Container">
+          <img className="Profile-pic" src="https://i.imgur.com/yZdQCsr.png" height="40" width="40" />
+
+          <h4>{friendNames[2]}
+          </h4>
+          <div className="Icon-wrapper">
+            <img className="Icon-pic" src="http://www.clker.com/cliparts/H/i/N/V/m/o/plus-sign-hi.png" alt="" height="31" width="30" />
+            <img className="Icon-pic" src="http://simpleicon.com/wp-content/uploads/bluetooth.png" alt="" height="32" width="35" />
+          </div>
+        </div>
       </div>
+
+      /* <div className="FriendBlock-Container">
+        <img className="Profile-pic" src="https://i.imgur.com/yZdQCsr.png" height="40" width="40" />
+
+        <h4>{friendNames[2]}
+        </h4>
+        <div className="Icon-wrapper">
+          <img className="Icon-pic" src="http://www.clker.com/cliparts/H/i/N/V/m/o/plus-sign-hi.png" alt="" height="31" width="30" />
+          <img className="Icon-pic" src="http://simpleicon.com/wp-content/uploads/bluetooth.png" alt="" height="32" width="35" />
+        </div>
       </div>
+      <div className="FriendBlock-Container">
+        <img className="Profile-pic" src="https://i.imgur.com/yZdQCsr.png" height="40" width="40" />
+
+        <h2>{friendNames[3]}
+        </h2>
+        <div className="Icon-wrapper">
+          <img className="Icon-pic" src="http://www.clker.com/cliparts/H/i/N/V/m/o/plus-sign-hi.png" alt="" height="31" width="30" />
+          <img className="Icon-pic" src="http://simpleicon.com/wp-content/uploads/bluetooth.png" alt="" height="32" width="35" />
+        </div>
+      </div>
+      <div className="FriendBlock-Container">
+        <img className="Profile-pic" src="https://i.imgur.com/yZdQCsr.png" height="40" width="40" />
+
+        <h2>{friendNames[4]}
+        </h2>
+        <div className="Icon-wrapper">
+          <img className="Icon-pic" src="http://www.clker.com/cliparts/H/i/N/V/m/o/plus-sign-hi.png" alt="" height="31" width="30" />
+          <img className="Icon-pic" src="http://simpleicon.com/wp-content/uploads/bluetooth.png" alt="" height="32" width="35" />
+        </div>
+      </div>
+      <div className="FriendBlock-Container">
+        <img className="Profile-pic" src="https://i.imgur.com/yZdQCsr.png" height="40" width="40" />
+
+        <h2>{friendNames[5]}
+        </h2>
+        <div className="Icon-wrapper">
+          <img className="Icon-pic" src="http://www.clker.com/cliparts/H/i/N/V/m/o/plus-sign-hi.png" alt="" height="31" width="30" />
+          <img className="Icon-pic" src="http://simpleicon.com/wp-content/uploads/bluetooth.png" alt="" height="32" width="35" />
+        </div>
+      </div>
+    </div> */
+
     );
   }
 }
