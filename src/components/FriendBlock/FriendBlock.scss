@@ -1,0 +1,42 @@
+.FriendBlock-Container {
+  width: 400px;
+  border-top: 5px solid #000100;
+  display: flex;
+  flex-flow: wrap
+}
+.Profile-pic {
+  margin-top: 1.2%;
+  border-radius: 50%;
+  padding-top: .2%;
+  box-shadow: 2px 2px 4px #000000;
+
+}
+
+button {
+  position: relative;
+  width: 40px;
+  height: 30px;
+  margin-left: 15%;
+  padding-bottom: 20%;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.Icon-wrapper {
+  width: 220px;
+  padding-left: 30%;
+  padding-top: 3%;
+  margin-left: 10%;
+
+}
+
+.Icon-pic {
+  margin-right: 1%;
+  margin-left: 10%;
+ 
+}
+
+h2 {
+  padding-top: 3%;
+  padding-left: 5%;
+}

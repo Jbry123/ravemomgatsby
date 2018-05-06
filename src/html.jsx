@@ -34,6 +34,19 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
+          <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+    const friendNames = [1, 2, 3, 'Bill', 'John', 'Liz', 'Milly'];
+    let friendName = '';
+    let randomFriendName = function (friendNames) {
+    for(let i = 0; i < friendNames.length[i]; i++) {
+    i += friendName;
+    }
+    }        `,
+            }}
+          ></script>
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
           {css}
